@@ -1,4 +1,2 @@
-a=input()
-z=int(a)
-n='Hello  '*z
-print(n)
+a=int(input())
+print("Hello\n"*a)
