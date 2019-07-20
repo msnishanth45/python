@@ -1,7 +1,7 @@
 a=int(input())
 if a%2==0:
-    print("even")
+    print("Even")
 elif a<0:
-    print("not valid")
+    print("invalid")
 else:
-    print("odd")
+    print("Odd")
