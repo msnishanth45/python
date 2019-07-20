@@ -1,5 +1,5 @@
-a=input()
-if a>='a' and a<='z' or a>='A' and a<='Z':
+x=input()
+if x>='a' and x<='z' or x>='A' and x<='Z':
     print("Alphabet")
 else:
     print("No")
