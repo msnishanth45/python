@@ -1,6 +1,6 @@
 a,b = map(int,input().split())
  
-for n in range(a,b + 1):
+for n in range(a,b):
    # initialize sum
    sum = 0
  
