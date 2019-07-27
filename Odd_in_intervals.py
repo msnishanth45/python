@@ -1,7 +1,4 @@
-a,b=map(int, input().split())
-if(a%2!=0):
-  for i in range(a,b,2):
-    print(i,"",end="")
-elif(a%2==0):
-  for i in range(a+1,b,2):
+x,y=map(int,input().split())
+for i in range(x+1,y):
+  if(i%2!=0):
     print(i,"",end="")
