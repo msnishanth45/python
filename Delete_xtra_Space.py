@@ -1,20 +1,20 @@
-input_string = input()
-output_string = [] 
+a = input()
+b = [] 
 space_flag = False # Flag to check if spaces have occured 
   
-for index in range(len(input_string)): 
+for index in range(len(a)): 
   
-    if input_string[index] != ' ': 
+    if a[index] != ' ': 
         if space_flag == True: 
-            if (input_string[index] == '.' 
-                    or input_string[index] == '?' 
-                    or input_string[index] == ','): 
+            if (a[index] == '.' 
+                    or a[index] == '?' 
+                    or a[index] == ','): 
                 pass
             else: 
-                output_string.append(' ') 
+                b.append(' ') 
             space_flag = False
-        output_string.append(input_string[index]) 
-    elif input_string[index - 1] != ' ': 
+        b.append(a[index]) 
+    elif a[index - 1] != ' ': 
         space_flag = True
   
-print (''.join(output_string))
+print (''.join(b))
